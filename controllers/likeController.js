@@ -1,4 +1,4 @@
-const dbConnection = require("../db/Config");
+const dbConnection = require("../db/Config.js");
 
 // POST /answer/:answerId/like
 async function likeAnswer(req, res) {

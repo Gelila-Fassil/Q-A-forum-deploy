@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(cors());
 
 // db connection
-const dbConnection = require("./db/Config");
+const dbConnection = require("./db/Config.js");
 
 // user routes middleware file import
 const userRoutes = require("./routes/userRoutes");

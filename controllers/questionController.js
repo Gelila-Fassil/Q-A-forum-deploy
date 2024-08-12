@@ -1,4 +1,4 @@
-const dbConnection = require("../db/Config");
+const dbConnection = require("../db/Config.js");
 const { v4: uuidv4 } = require("uuid");
 
 // postquestion controller
